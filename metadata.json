@@ -1,0 +1,5 @@
+{
+  "name": "Neo Store",
+  "description": "A high-performance electronic store with 3D product showcases, real-time chat, and seamless checkout.",
+  "requestFramePermissions": ["geolocation", "microphone"]
+}

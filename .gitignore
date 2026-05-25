@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Production
+dist/
+dist-ssr/
+build/
+
+# Logs
+*.log
+server.log
+backend.log
+playwright_logs.txt
+playwright_logs_2.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+backend/__pycache__/
+backend/db.sqlite3
+backend/media/
+*.pot
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
